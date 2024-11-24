@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Idioma -->
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="App web de tareas pendientes" />
+    <meta name="keywords" content="tareas, pendientes" />
+    <meta name="author" content="Bryan Sanchez" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript -->
+    <script src="JavaScript/toDo.js" defer></script>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="Css/style.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <!-- Título -->
+    <title>Tareas Pendientes</title>
+  </head>
+
+  <body>
+    <!-- Contenedor principal -->
+    <div class="container">
+      <h1>Tu To-Do App</h1>
+
+      <!-- Input para agregar tareas -->
+      <div class="input-group">
+        <input
+          type="text"
+          id="taskInput"
+          class="form-control"
+          placeholder="Escribe tu tarea..."
+        />
+        <button id="addTasBtn" aria-label="Agregar tarea">Agregar</button>
+      </div>
+
+      <!-- Lista de tareas -->
+      <ul id="tasklist" class="list-group">
+        <!-- Las tareas aparecerán aquí -->
+      </ul>
+    </div>
+  </body>
+</html>
